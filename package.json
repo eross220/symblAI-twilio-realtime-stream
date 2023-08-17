@@ -1,0 +1,33 @@
+{
+  "name": "symbl-twilio-media-streams-integration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/symblai/symbl-twilio-media-streams-integration.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/symblai/symbl-twilio-media-streams-integration/issues"
+  },
+  "homepage": "https://github.com/symblai/symbl-twilio-media-streams-integration#readme",
+  "dependencies": {
+    "@symblai/symbl-js": "^1.4.8",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-ws": "^4.0.0",
+    "symbl-node": "^1.0.10",
+    "twilio": "^3.48.0",
+    "websocket-stream": "^5.5.2",
+    "uuid": "^8.2.0",
+    "wavefile": "^11.0.0"
+  },
+  "devDependencies": {}
+}
